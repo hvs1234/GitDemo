@@ -1,0 +1,20 @@
+from tkinter import *
+root = Tk()
+root.geometry('700x500+300+80')
+root.title('Learn GUI')
+root.configure(bg='sky blue')
+root.resizable(False,False)
+def f1():
+    a = lb1.get(ANCHOR)
+    if(a=="C++"):
+        root1 = Tk()
+        root1.title("C++")
+        root1.geometry('300x300+160+60')
+        root1.resizable(False,False)
+        root1.mainloop()
+lb1 = Listbox(width=30,selectmode=EXTENDED)
+lb1.place(x=250,y=20)
+lb1.insert(1,"C++")
+lb1.insert(2,"Java")
+b1 = Button(root,text="Click",command=f1).place(x=500,y=20)
+root.mainloop()
