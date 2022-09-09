@@ -1,0 +1,4 @@
+use hvs;
+drop table data;
+
+drop database hvs;
