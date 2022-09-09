@@ -1,0 +1,2 @@
+use hvs;
+create data1 select * from data;
