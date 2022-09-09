@@ -1,0 +1,9 @@
+create database hvs;
+use hvs;
+create table data
+( ID bigint PRIMARY KEY NOT NULL,
+  Name char(200) NOT NULL DEFAULT 'No Name',
+  Marks decimal(7,2) NOT NULL,
+  Result_Date DATETIME NOT NULL );
+  
+  desc data;
