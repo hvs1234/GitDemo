@@ -1,0 +1,2 @@
+use hvs;
+select *,ID AS ID from data;
