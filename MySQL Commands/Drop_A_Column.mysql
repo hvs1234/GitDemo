@@ -1,0 +1,3 @@
+use hvs;
+alter table data
+drop Roll_No;
