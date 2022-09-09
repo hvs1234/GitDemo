@@ -1,2 +1,2 @@
 use hvs;
-create data1 select * from data;
+create table data1 select * from data;
