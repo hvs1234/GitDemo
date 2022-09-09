@@ -1,0 +1,6 @@
+select curdate();
+select now();
+select user();
+select sin(cos(34));
+select (3+4);
+select @@time_zone;
