@@ -1,0 +1,5 @@
+use hvs;
+insert into data
+values(1,'abc',450,94.87,'2022-08-14 10:00:15');
+
+select * from data;  #query to represent the table
